@@ -1,0 +1,4 @@
+dependencies:
+  revk/vl53l0x:
+    git: https://codeberg.org/RevK/ESP32-VL53L0X.git
+    path: .
