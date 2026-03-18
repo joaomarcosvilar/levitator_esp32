@@ -39,7 +39,7 @@ esp_err_t power_contr_set(uint16_t value)
     {
         duty_raw = 8192;
     }
-    ESP_LOGI(TAG,"DUT RAW: %ld", duty_raw);
+    //ESP_LOGI(TAG,"DUT RAW: %ld", duty_raw);
     esp_err_t ret = ledc_set_duty(PWM_MODE, PWM_CHANNEL, duty_raw);
     if(ret != ESP_OK)
     {
